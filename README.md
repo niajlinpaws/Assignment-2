@@ -7,17 +7,19 @@ Project Setup
 1. npm install
 2. create a .env file and add the following parameters:
 
-	PORT=<PORT>
+	# Server
+
+	PORT = `PORT`
 
 	# Database
 
-	MONGO_URI = <MONGODB CONNECTION STRING>
+	MONGO_URI = `MONGODB CONNECTION STRING`
 
 	# Endpoints
 
-	FETCH_USERS = https://jsonplaceholder.typicode.com/users
-	FETCH_POSTS = https://jsonplaceholder.typicode.com/posts
-	FETCH_COMMENTS = https://jsonplaceholder.typicode.com/comments	
+	- FETCH_USERS = https://jsonplaceholder.typicode.com/users
+	- FETCH_POSTS = https://jsonplaceholder.typicode.com/posts
+	- FETCH_COMMENTS = https://jsonplaceholder.typicode.com/comments	
 
 3. start mongod instance
 
