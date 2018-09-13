@@ -1,0 +1,22 @@
+{
+  "name": "Assignment-2",
+  "version": "1.0.0",
+  "description": "An application to read and modify users and their posts",
+  "scripts": {
+    "start": "node ./build/app.js",
+    "tsc":"tsc",
+    "fetch_data":"node ./build/fetch_data.js",
+    "build":"npm run tsc && npm run fetch_data && npm start"
+  },
+  "dependencies": {
+    "debug": "^4.0.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "http-errors": "^1.7.1",
+    "mongoose": "^5.2.14"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "typescript": "^3.0.3"
+  }
+}
